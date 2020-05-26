@@ -1,0 +1,16 @@
+{
+  "extends": ["react-app","eslint:recommended", "prettier"],
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "no-useless-escape": "off",
+    "react-hooks/rules-of-hooks": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "prettier/prettier": "error"
+  },
+  "plugins": ["prettier"]
+}
